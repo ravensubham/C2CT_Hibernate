@@ -28,9 +28,6 @@ public class Client {
 	homeAddress.setState("Bihar"); 
 	homeAddress.setZipCode("800 026");
 
-	// Inject address to student table ?? student.setAddress(homeAddress);
-
-	// persist
 
 	em.persist(student);
 
